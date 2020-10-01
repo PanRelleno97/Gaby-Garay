@@ -1,0 +1,130 @@
+* {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+.row {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.container-principal {
+	background: black;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+}
+/*----------------------------------------------NAVEGADOR----------------------------------------------*/
+.navbar {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 10;
+	height: 3rem;
+}
+.icono-barra {
+	font-size: 30px;
+	padding: 0.5rem 1rem;
+	color: black;
+}
+.text-nav > a {
+	text-decoration: none;
+	color: white;
+	margin: 0px 30px;
+}
+.text-nav > a:hover,
+.icono-barra:hover {
+	text-decoration: none;
+	color: rgb(197, 179, 76);
+	border-bottom: rgb(197, 179, 76) solid 1px;
+	transition: 1s;
+}
+/*--------------------HEADER----------------------*/
+.header {
+	background-image: url(night-4702174.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.header > .row {
+	margin: 0px;
+}
+
+.text-header {
+	padding: 15px;
+	font-weight: 900;
+	font-style: oblique;
+	font-size: 350%;
+}
+
+/*--------------------ABOUT-ME------------- 205081---------*/
+.container-about {
+	background: #435d80; /*------gris o azul oscuro*/
+	z-index: 0;
+	padding: 15px;
+	padding: 3.75rem 0rem;
+}
+.row-about {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.row-about > .col > .text-header > a {
+	text-decoration: none;
+}
+.about-image {
+	height: 22vh;
+	width: 22vh;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+.about-text {
+	height: 20%;
+}
+
+/*---------------------SKILLS--------------- ---------*/
+.container-skills {
+	background: black;
+	padding: 5%;
+}
+
+.row-skills {
+	justify-content: space-between;
+	padding-top: 1.5rem;
+}
+.card-skills {
+	min-width: 200px;
+	border-left: #a8d894 solid 10px;
+	border-right: #a8d894 solid 10px;
+	border-top: #a8d894 solid 10px;
+}
+.card-body {
+	min-width: 200px;
+}
+.card-skills > i {
+	font-size: 1100%;
+	font-size: 17vh;
+	padding: 35px 0px;
+}
+.card-text {
+	background: #a8d894;
+	height: 20%;
+}
+.text-skills {
+	font-size: 100%;
+	text-align: center;
+	color: black;
+}
+
+/*--------------------PROYECTS-------------- ---------*/
+.container-proyects {
+	height: 100vh;
+	background: #435d80;
+}
+/*---------------------CONTACT-------------- ---------*/
+.container-contacts {
+	height: 100vh;
+	background: black;
+}
