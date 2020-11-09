@@ -17,29 +17,39 @@
 	padding: 0px;
 }
 /*----------------------------------------------NAVEGADOR----------------------------------------------*/
-.navbar {
+#navbar {
 	position: fixed;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.3);
 	z-index: 10;
 	height: 3rem;
+	padding: 0px 20%;
 }
-.icono-barra {
-	font-size: 30px;
-	padding: 0.5rem 1rem;
-	color: black;
+.text-nav {
+	display: flex;
+
+	justify-content: center;
 }
-.text-nav > a {
+.text-box {
+	height: 3rem;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-box > a {
 	text-decoration: none;
 	color: white;
-	margin: 0px 30px;
 }
-.text-nav > a:hover,
-.icono-barra:hover {
-	text-decoration: none;
+.text-box > a:hover {
 	color: rgb(197, 179, 76);
-	border-bottom: rgb(197, 179, 76) solid 1px;
-	transition: 1s;
+	text-decoration: underline rgba(192, 171, 50, 0.9);
+	transition: 0.5s;
+}
+.icono-barra:hover,
+.text-box:hover {
+	transition: 0.5s;
+	background-color: rgba(0, 0, 0, 0.1);
 }
 /*--------------------HEADER----------------------*/
 .header {
@@ -86,45 +96,25 @@
 
 /*---------------------SKILLS--------------- ---------*/
 .container-skills {
-	background: black;
+	background-color: #55d9ddde;
+
 	padding: 5%;
 }
-
 .row-skills {
-	justify-content: space-between;
-	padding-top: 1.5rem;
+	grid-template-columns: 100px;
+	grid-template-rows: 100px;
 }
-.card-skills {
-	min-width: 200px;
-	border-left: #a8d894 solid 10px;
-	border-right: #a8d894 solid 10px;
-	border-top: #a8d894 solid 10px;
-}
-.card-body {
-	min-width: 200px;
-}
-.card-skills > i {
-	font-size: 1100%;
-	font-size: 17vh;
-	padding: 35px 0px;
-}
-.card-text {
-	background: #a8d894;
-	height: 20%;
-}
-.text-skills {
-	font-size: 100%;
-	text-align: center;
-	color: black;
+.icons-skills i {
+	font-size: 100px;
 }
 
 /*--------------------PROYECTS-------------- ---------*/
 .container-proyects {
-	height: 100vh;
-	background: #435d80;
+	height: 50vh;
+	background: #55dd99de;
 }
 /*---------------------CONTACT-------------- ---------*/
-.container-contacts {
-	height: 100vh;
-	background: black;
+.container-contact {
+	height: 10vh;
+	background: rgba(214, 200, 200, 0.2);
 }

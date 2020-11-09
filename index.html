@@ -16,29 +16,13 @@
 	<body>
 		<div class="container-principal container-fluid">
 			<!--------------------NAVEGADOR---------------------->
-			<nav class="navbar navbar-expand-md">
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon">Menu</span>
-				</button>
-				<div
-					class="collapse navbar-collapse navbar-expand-lg justify-content-center"
-					id="navbarNavAltMarkup"
-				>
-					<div class="navbar-nav text-nav">
-						<a href="#About-Me">About Me</a>
-						<a href="#skills">Skills</a>
-						<a href="#home">Home</a>
-						<a href="#proyects">Proyects</a>
-						<a href="#contact">Contact</a>
-					</div>
+			<nav id="navbar">
+				<div class="text-nav">
+					<div class="text-box"><a href="#About-Me">About Me</a></div>
+					<div class="text-box"><a href="#skills">Skills</a></div>
+					<div class="text-box"><a href="#home">Home</a></div>
+					<div class="text-box"><a href="#proyects">Proyects</a></div>
+					<div class="text-box"><a href="#contact">Contact</a></div>
 				</div>
 			</nav>
 			<!--------------------ENCABEZADO---------------------->
@@ -46,10 +30,7 @@
 				<div class="row justify-content-center align-items-center text-center">
 					<div class="col col-lg-12">
 						<h1 class="text-header">
-							Hi , i'm
-							<a class="text-decoration-none text-white" href="../clases/Bootstrat.html">
-								Gaby</a
-							>
+							Hello world , I'm Gaby
 						</h1>
 					</div>
 				</div>
@@ -72,32 +53,19 @@
 			</section>
 			<!--------------------Section-Skills---------------------->
 			<section id="skills" class="container-skills container-fluid">
-				<div class="row row-skills">
-					<div class="col-lg-3 col-md-3 col-sm-12 col-skills">
-						<div class="text-center card-skills">
-							<i class="fas fa-copyright" style="color: #ff4c4c"></i>
-						</div>
-						<div class="card-body card-text">
-							<p class="text-skills">C</p>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-3 col-sm-12 col-skills">
-						<div class="text-center card-skills">
-							<i class="fab fa-html5" style="color: orange"></i>
-						</div>
-						<div class="card-body card-text">
-							<p class="text-skills card-text pb-3">Html5</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-12 col-skills">
-						<div class="text-center card-skills">
-							<i class="fab fa-css3-alt" style="color: blue"></i>
-						</div>
-						<div class="card-body card-text">
-							<p class="text-skills">Css3</p>
-						</div>
-					</div>
+				<div class="row-skills col-lg-6 col-md-6 col-sm-12">
+					<div class="icons-skills">
+						<i class="fas fa-copyright" style="color: #ff4c4c"></i
+					<div>
+					<div class="icons-skills">
+						<i class="fab fa-html5" style="color: orange"></i>	
+					<div>
+					<div class="icons-skills">		
+						<i class="fab fa-css3-alt" style="color: blue"></i>
+					<div>
+					<div class="icons-skills">
+						<i class="fab fa-python" style="color: white"></i>
+					<div>
 				</div>
 			</section>
 			<!--------------------Section-three---------------------->
@@ -114,17 +82,16 @@
 					</div>
 				</div>
 			</section>
-			<!--------------------Section-four---------------------->
-			<section id="contact" class="container-contact container-fluid">
+			<!--------------------Section-Contacts---------------------->
+			<footer id="contact" class="container-contact container-fluid">
 				<div class="row row-about">
 					<div class="col-lg-6"></div>
 					<div class="col-lg-6 about-text">
 						<h2>About Me...</h2>
 					</div>
 				</div>
-			</section>
-			<!--------------------FOOTERS---------------------->
-			<footer id="contact"></footer>
+			</footer>
+
 		</div>
 	</body>
 </html>
