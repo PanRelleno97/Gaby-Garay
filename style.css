@@ -4,11 +4,6 @@
 	padding: 0px;
 	text-decoration: none;
 }
-.row {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-}
 
 .container-principal {
 	background: black;
@@ -56,37 +51,33 @@
 	background-image: url(night-4702174.jpg);
 	background-size: cover;
 	height: 100vh;
-}
-
-.header > .row {
-	margin: 0px;
+	display: flex;
+	align-items: center;
 }
 
 .text-header {
-	padding: 15px;
+	text-align: center;
 	font-weight: 900;
 	font-style: oblique;
 	font-size: 350%;
 }
 
-/*--------------------ABOUT-ME------------- 205081---------*/
+/*--------------------ABOUT-ME----------------------*/
 .container-about {
-	background: #435d80; /*------gris o azul oscuro*/
+	background: #435d80;
 	z-index: 0;
 	padding: 15px;
-	padding: 3.75rem 0rem;
+	padding: 3.75rem 1rem;
 }
 .row-about {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-.row-about > .col > .text-header > a {
-	text-decoration: none;
-}
+
 .about-image {
-	height: 22vh;
-	width: 22vh;
+	height: 23vh;
+	width: 23vh;
 	border-radius: 100%;
 	margin-bottom: 20px;
 }
@@ -97,12 +88,15 @@
 /*---------------------SKILLS--------------- ---------*/
 .container-skills {
 	background-color: #55d9ddde;
-
-	padding: 5%;
+	padding: 3rem;
 }
-.row-skills {
-	grid-template-columns: 100px;
-	grid-template-rows: 100px;
+
+.icons-skills {
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px 0px;
+	background-color: #5adce0;
+	box-shadow: 1px 2px 2px rgb(39, 38, 38);
 }
 .icons-skills i {
 	font-size: 100px;
@@ -115,6 +109,10 @@
 }
 /*---------------------CONTACT-------------- ---------*/
 .container-contact {
-	height: 10vh;
+	height: 50vh;
 	background: rgba(214, 200, 200, 0.2);
+}
+
+.form {
+	display: block;
 }
