@@ -88,18 +88,27 @@
 /*---------------------SKILLS--------------- ---------*/
 .container-skills {
 	background-color: #55d9ddde;
-	padding: 3rem;
+	padding: 3rem 5rem;
+}
+.col-skills {
+	display: flex;
+	justify-content: center;
+}
+.icons-skills {
+	display: flex;
+	justify-content: center;
+	margin: 4% 0;
+	align-items: center;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #5adce0;
+	box-shadow: 1px 2px 2px rgb(51, 48, 48);
 }
 
-.icons-skills {
-	padding: 10px;
-	border-radius: 10px;
-	margin: 10px 0px;
-	background-color: #5adce0;
-	box-shadow: 1px 2px 2px rgb(39, 38, 38);
-}
 .icons-skills i {
-	font-size: 100px;
+	font-size: 110px;
 }
 
 /*--------------------PROYECTS-------------- ---------*/
@@ -111,8 +120,14 @@
 .container-contact {
 	height: 50vh;
 	background: rgba(214, 200, 200, 0.2);
+	padding: 30px;
+	display: flex;
+}
+.col-contacts {
+	background-color: rgba(214, 200, 200, 0.2);
+
+	border: 1px solid white;
 }
 
 .form {
-	display: block;
 }
